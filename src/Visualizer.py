@@ -93,7 +93,6 @@ def read_ant_route(file_path):
 
 def visualize_ant_movement(maze_data, ncol, nrow, start_point, end_point, ant_movement):
     maze_array = np.array([[int(cell) for cell in row] for row in maze_data])
-    print(maze_array)
     start = end = routes = np.zeros((nrow, ncol))
 
     start[start_point] = 1  # Represent the starting point with value 2

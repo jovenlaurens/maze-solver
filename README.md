@@ -1,4 +1,4 @@
-# Ant Colony Optimization Maze Solver
+# Maze Solver
 
 ## Overview
 
@@ -13,6 +13,7 @@ For the results of the algorithm, the average and best route lengths over multip
 - Dynamic adjustment of pheromones based on route lengths.
 - Visualization of average and best route lengths over multiple generations.
 - Visualization of the best route found by the algorithm.
+- Baseline algorithm (Breadth-First Search) for comparision
 
 ## Getting Started
 
@@ -20,7 +21,6 @@ For the results of the algorithm, the average and best route lengths over multip
 
 - Python 3.x
 - Required Python packages (install using `pip install -r requirements.txt`):
-  - matplotlib (for plotting results)
 
 ### Usage
 
@@ -46,8 +46,16 @@ remarks:
 
 - `<difficulty>`: easy, medium, hard, insane
 
-## Current Progress
+## Results
 
-- [x] Ant Colony Optimization algorithm for maze solving.
-- [ ] Solving hard and insane difficulty mazes.
-- [ ] Optimize the algorithm
+### Easy Maze
+
+![](result/easy.png)
+
+### Medium Maze
+
+![](result/medium.png)
+
+### Hard Maze
+
+![](result/hard.png)

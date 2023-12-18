@@ -35,7 +35,6 @@ class AntColonyOptimization:
         self.generations = config['generations']
         self.q = config['q']
         self.evaporation = config['evaporation']
-        self.num_ants = config['num_ants']
 
     # Runs one generation of ants
 

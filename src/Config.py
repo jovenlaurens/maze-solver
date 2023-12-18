@@ -1,8 +1,7 @@
 config = {
     # Ant Colony Optimization
-    'ants_per_gen': 20,
-    'num_ants': 20,
+    'ants_per_gen': 40,
     'generations': 100,
     'q': 100,
-    'evaporation': 0.1
+    'evaporation': 0.5
 }
